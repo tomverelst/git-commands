@@ -16,8 +16,10 @@ The aliases I have configured are located in the `alias` directory.
 | `br` | Alias for `branch`
 | `ci` | Alias for `commit`
 | `co` | Alias for `checkout`
+| `st` | Alias for `status`
 | `incoming` | Fetches and shows incoming changes
 | `outgoing` | Fetches and shows outgoing changes
+| `last` | Shows the last commit
 
 ## 3. Guess user
 

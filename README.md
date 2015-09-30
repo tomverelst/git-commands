@@ -21,6 +21,7 @@ The aliases I have configured are located in the `alias` directory.
 | `outgoing` | Fetches and shows outgoing changes
 | `last` | Shows the last commit
 | `graph` | Shows a pretty formatted log in a graph with one line commits
+| `ignore` | Ignore stuff by adding it to the `.gitignore` file. The first parameter is used.
 | `uncommit` | Soft resets to the previous commit
 
 ## 3. Guess user

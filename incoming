@@ -1,1 +1,0 @@
-git fetch && git log --graph --boundary --left-right --cherry-pick --decorate HEAD..FETCH_HEAD

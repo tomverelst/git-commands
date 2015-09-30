@@ -20,6 +20,8 @@ The aliases I have configured are located in the `alias` directory.
 | `incoming` | Fetches and shows incoming changes
 | `outgoing` | Fetches and shows outgoing changes
 | `last` | Shows the last commit
+| `graph` | Shows a pretty formatted log in a graph with one line commits
+| `uncommit` | Soft resets to the previous commit
 
 ## 3. Guess user
 

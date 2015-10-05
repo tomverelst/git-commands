@@ -10,6 +10,10 @@ local_branches(){
     git for-each-ref --shell --format='%(refname)' refs/heads/
 }
 
+current_ref(){
+    git symbolic-ref HEAD
+}
+
 checkout(){
     if [ -n "$1" ]; then
         echo "Checking out $1"
@@ -17,12 +21,25 @@ checkout(){
     fi
 }
 
+save(){
+    echo "Saving $1 from the fire!"
+
+    #formatted=$(format_branch $branch)
+
+    echo "Saved $1 from the fire!"
+}
+
 fire() {
+    original=$(current_ref)
+    save $original
+
     for branch in $(local_branches); do
-        #echo $branch
-        checkout $branch
-        #formatted=$(format_branch $branch)
-        #echo $formatted
+        if [ "'$original'" == "$branch" ]; then
+            echo "$original has already been saved"
+        else
+            checkout $branch
+            save $branch
+        fi
     done
 }
 

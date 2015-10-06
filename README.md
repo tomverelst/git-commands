@@ -23,6 +23,7 @@ The aliases I have configured are located in the `alias` directory.
 | `graph` | Shows a pretty formatted log in a graph with one line commits
 | `ignore` | Ignore stuff by adding it to the `.gitignore` file. The first parameter is used.
 | `uncommit` | Soft resets to the previous commit
+| `tm` | Tests commits using Maven. Note: requires `[git-test](https://github.com/spotify/git-test)`
 
 ## 3. Guess user
 

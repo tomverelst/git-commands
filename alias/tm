@@ -1,0 +1,1 @@
+test -v --verify 'mvn clean test'

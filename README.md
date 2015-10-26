@@ -24,7 +24,7 @@ The aliases I have configured are located in the `alias` directory.
 | `ignore` | Ignore stuff by adding it to the `.gitignore` file. The first parameter is used.
 | `uncommit` | Soft resets to the previous commit
 | `tm` | Tests commits using Maven. Note: requires [`git-test`](https://github.com/spotify/git-test)
-
+| `la` | Lists all of your aliases
 ## 3. Guess user
 
 Located in the `guess-user` folder, the `guess-user` functionality automagically 

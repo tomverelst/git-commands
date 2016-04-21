@@ -26,6 +26,8 @@ The aliases I have configured are located in the `alias` directory.
 | `tm` | Tests commits using Maven. Note: requires [`git-test`](https://github.com/spotify/git-test)
 | `la` | Lists all of your aliases
 | 'rc' | Alias for `rebase --continue`
+| 'nope' | Alias for `rebase --abort`
+
 ## 3. Guess user
 
 Located in the `guess-user` folder, the `guess-user` functionality automagically 
